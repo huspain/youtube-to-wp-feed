@@ -1,6 +1,6 @@
 <?php
 /**
-* functions to display shortcodes
+* Functions to display shortcodes
 */
 
 if ( ! defined( 'ABSPATH' ) ) {

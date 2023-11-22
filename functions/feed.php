@@ -7,7 +7,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die();
 }
 
-// on Youtube Feed Settings options page save, execute functions
+// on settings options page save, execute functions
 add_action('acf/options_page/save', 'youtube_to_wp_feed_save_options_page', 10, 2);
 function youtube_to_wp_feed_save_options_page( $post_id, $menu_slug ) {
 
