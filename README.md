@@ -20,7 +20,7 @@ While this plugin is active, yYoutube videos and playlists will automatically sy
 To display playlists as a feed, use this shortcode: <strong>[youtube-playlist playlist="{playlist-slug}" link="youtube"]</strong>.<br>
 <ul >
     <li>The <strong>"playlist"</strong> parameter indicates which playlist to display. Use the slug of a "playlists" taxonomy term for the value. If this is not specified, it will default to display all videos.</li>
-    <li>The <strong>"link"</strong> parameter specifies where each video in the feed will link to. If this value is set to "youtube", then each video will link to its respective video on "youtube.com." If any other value is given, or if left unspecified, then each video will link to its respective post on the website.</li> 
+    <li>The <strong>"link"</strong> parameter specifies where each video in the feed will link to. If this value is set to "youtube", then each video will link to its respective video on "youtube.com." If any other value is given, or if left unspecified, each video will link to its respective post on the website.</li> 
 </ul>
 <br>
 To display videos as an iframe, use this shortcode: <strong>[youtube-iframe post_id="{post_id}"]</strong>.<br>
