@@ -1,7 +1,7 @@
 # Youtube To WP Feed
-A WordPress plugin that imports Youtube videos and playlists to the website.
+A WordPress plugin that imports Youtube videos and playlists into the website.
 
-<strong>General Information:</strong>
+<strong>General Information:</strong><br>
 This plugin utilizes Youtube Data API V3 and the plugin, <a href="https://www.advancedcustomfields.com/pro/" target="_blank">Advanced Custom Fields Pro</a>. ACF Pro must be active in order to activate this plugin.
 
 The following values are required in order to import Youtube videos and playlists:
@@ -12,11 +12,11 @@ The following values are required in order to import Youtube videos and playlist
 
 The API Key can be obtained from the Google Developers Console. More information can be found <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank">here</a>.
 
-The Channel ID can be found on the desired Youtube channel's web page.
+The Channel ID can be found on the desired Youtube channel's web page. More information can be found <a href="https://support.google.com/youtube/answer/3250431" target="_blank">here</a>.
 
-While this plugin is active, youtube videos and playlists will automatically sync daily. In order to manually sync videos and playlists, update the options page. Every time these settings are updated, videos and playlists will sync.
+While this plugin is active, yYoutube videos and playlists will automatically sync daily. In order to manually sync videos and playlists, update the options page. Every time the settings are updated, videos and playlists will sync.
  
-<strong>Shortcode Information:</strong>
+<strong>Shortcode Information:</strong><br>
 To display playlists as a feed, use this shortcode: <strong>[youtube-playlist playlist="{playlist-slug}" link="youtube"]</strong>.<br>
 <ul >
     <li>The <strong>"playlist"</strong> parameter indicates which playlist to display. Use the slug of a "playlists" taxonomy term for the value. If this is not specified, it will default to display all videos.</li>
