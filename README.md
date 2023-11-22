@@ -1,5 +1,5 @@
 # Youtube To WP Feed
-A WordPress plugin that imports Youtube videos and playlists into the website.
+A WordPress plugin that imports Youtube videos and playlists into the website.<br>
 
 <strong>General Information:</strong><br><br>
 This plugin utilizes Youtube Data API V3 and the plugin, <a href="https://www.advancedcustomfields.com/pro/" target="_blank">Advanced Custom Fields Pro</a>. ACF Pro must be active in order to activate this plugin.
@@ -14,7 +14,7 @@ The API Key can be obtained from the Google Developers Console. More information
 
 The Channel ID can be found on the desired Youtube channel's web page. More information can be found <a href="https://support.google.com/youtube/answer/3250431" target="_blank">here</a>.
 
-While this plugin is active, yYoutube videos and playlists will automatically sync daily. In order to manually sync videos and playlists, update the options page. Every time the settings are updated, videos and playlists will sync.
+While this plugin is active, yYoutube videos and playlists will automatically sync daily. In order to manually sync videos and playlists, update the options page. Every time the settings are updated, videos and playlists will sync.<br>
  
 <strong>Shortcode Information:</strong><br><br>
 To display playlists as a feed, use this shortcode: <strong>[youtube-playlist playlist="{playlist-slug}" link="youtube"]</strong>.<br>
